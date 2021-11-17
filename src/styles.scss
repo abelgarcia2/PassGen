@@ -7,11 +7,22 @@ $second-color: #ffffff;
 	align-items: center;
 }
 
+.user-input {
+	display: flex;
+	flex-direction: row;
+}
+
 .header {
 	margin: 0 0 0.4em 0;
 }
 
 #pass {
+	color: red;
+}
+
+.error {
+	margin-left: 0.5rem;
+	font-size: small;
 	color: red;
 }
 

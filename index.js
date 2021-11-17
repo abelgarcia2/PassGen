@@ -10,7 +10,7 @@ app.use(cors())
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
-    console.log('Servidor arrancado en el puerto ' + PORT)
+    console.log('Server ON on port ' + PORT)
 })
 
 

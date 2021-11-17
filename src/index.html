@@ -6,19 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PassGen</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <!-- <style>
+        .user-input {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .error {
+            margin-left: 0.5rem;
+            font-size: small;
+            color: red;
+        }
+    </style> -->
 </head>
 
 <body>
     <div class="container">
         <h1 class="header">Password Generator</h1>
-        <div id="pass"></div>
+        <div id="pass"> </div>
         <div class="user-input">
             <label for="length">Length (leave in blank for random length): </label>
             <input id="length" type="number" />
             <button id="btn" type="button">Generate</button>
+            <div id="error" class="error"></div>
         </div>
     </div>
-    <script src="bundle.js" type="application/javascript"></script>
+    <script src="bundle.js"></script>
+    <!-- <script src="app.js"></script> -->
 </body>
 
 </html>
